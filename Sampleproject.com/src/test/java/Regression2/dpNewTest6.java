@@ -23,7 +23,7 @@ public class dpNewTest6 extends Base2 {
 	 Thread.sleep(4000);
 	driver.navigate().back();
 	Thread.sleep(5000);
-	 
+	 // This is what I have added in this class
 	  
   }
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="dpTest(failed)">
+    <classes>
+      <class name="Regression2.linkTest7">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Regression2.linkTest7 -->
+    </classes>
+  </test> <!-- dpTest(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-21T10:29:08 EST" name="Suite2" finished-at="2023-11-21T10:29:21 EST" duration-ms="12782">
+    <groups>
+    </groups>
+    <test started-at="2023-11-21T10:29:08 EST" name="dpTest" finished-at="2023-11-21T10:29:21 EST" duration-ms="12782">
+      <class name="Regression2.linkTest7">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Regression2.linkTest7@5fdcaa40]" started-at="2023-11-21T10:29:08 EST" name="beforeTest" finished-at="2023-11-21T10:29:16 EST" duration-ms="7564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:Regression2.linkTest7@5fdcaa40]" started-at="2023-11-21T10:29:16 EST" name="f" finished-at="2023-11-21T10:29:17 EST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Regression2.linkTest7@5fdcaa40]" started-at="2023-11-21T10:29:17 EST" name="afterTest" finished-at="2023-11-21T10:29:21 EST" duration-ms="4151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Regression2.linkTest7 -->
+    </test> <!-- dpTest -->
+  </suite> <!-- Suite2 -->
+</testng-results>

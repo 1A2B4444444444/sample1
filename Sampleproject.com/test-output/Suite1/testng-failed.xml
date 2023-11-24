@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <parameter name="F2" value="https://www.facebook.com"/>
+  <listeners>
+    <listener class-name="Common.Base"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="F1" value="edge"/>
+    <classes>
+      <class name="Regression1.NewTest">
+        <methods>
+          <include name="brow"/>
+          <include name="f"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Regression1.NewTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="F1" value="chrome"/>
+    <classes>
+      <class name="Regression1.NewTest">
+        <methods>
+          <include name="brow"/>
+          <include name="f"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Regression1.NewTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <parameter name="F1" value=" "/>
+    <classes>
+      <class name="Regression1.NewTest">
+        <methods>
+          <include name="brow"/>
+          <include name="f"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Regression1.NewTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
